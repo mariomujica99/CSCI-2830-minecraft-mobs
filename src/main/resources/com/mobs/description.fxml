@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.mobs.DescriptionController" alignment="CENTER" spacing="20">
+    <padding>
+        <Insets top="20" right="100" bottom="20" left="100"/>
+    </padding>
+
+    <HBox spacing="100">
+
+
+        <VBox spacing="10" alignment="CENTER" minWidth="250">
+            <ImageView fx:id="mobImage" fitWidth="250" fitHeight="250" preserveRatio="true"/>
+            <Label fx:id="mobName" style="-fx-font-size: 30px;" wrapText="true" textAlignment="CENTER"/>
+
+            <HBox alignment="CENTER" spacing="5">
+                <Label text="Health" style="-fx-font-weight: bold;" minWidth="37"/>
+                <Label fx:id="mobHealth" wrapText="true" maxWidth="Infinity"/>
+                <Label fx:id="mobHealthHearts" wrapText="true" maxWidth="Infinity" style="-fx-text-fill: red;"/>
+            </HBox>
+
+            <HBox alignment="CENTER" spacing="5">
+                <Label text="Damage" style="-fx-font-weight: bold;" minWidth="47"/>
+                <Label fx:id="mobDamage" wrapText="true" maxWidth="Infinity"/>
+                <Label fx:id="mobDamageHearts" wrapText="true" maxWidth="Infinity" style="-fx-text-fill: red;"/>
+            </HBox>
+        </VBox>
+
+
+
+        <VBox spacing="10" alignment="CENTER">
+            <HBox>
+                <Label text="Behavior " style="-fx-font-weight: bold;" minWidth="70"/>
+                <Label fx:id="mobBehavior" wrapText="true" maxWidth="Infinity"/>
+            </HBox>
+
+            <HBox>
+                <Label text="Dimension " style="-fx-font-weight: bold;" minWidth="70"/>
+                <Label fx:id="mobDimension" wrapText="true" maxWidth="Infinity"/>
+            </HBox>
+
+            <HBox>
+                <Label text="Spawns " style="-fx-font-weight: bold;" minWidth="70"/>
+                <Label fx:id="mobSpawn" wrapText="true" maxWidth="Infinity"/>
+            </HBox>
+
+            <HBox>
+                <Label text="Size " style="-fx-font-weight: bold;" minWidth="70"/>
+                <Label fx:id="mobSize" wrapText="true" maxWidth="Infinity"/>
+            </HBox>
+
+            <VBox spacing="5">
+                <Label text="Description" style="-fx-font-weight: bold;"/>
+                <Label fx:id="mobDescription" wrapText="true" maxWidth="Infinity"/>
+            </VBox>
+        </VBox>
+
+
+    </HBox>
+
+
+    <Button text="Back"
+        onAction="#goBack"
+        style="-fx-background-color: #FF5722; /* A vibrant, modern color */
+            -fx-text-fill: white;
+            -fx-font-size: 18px;
+            -fx-font-weight: bold;
+            -fx-background-radius: 8;
+            -fx-padding: 10 20;
+            -fx-cursor: hand;
+            -fx-border-color: transparent;
+            -fx-border-width: 0;
+            -fx-alignment: center;"/>
+</VBox>
