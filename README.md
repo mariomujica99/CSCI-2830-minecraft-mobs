@@ -16,28 +16,28 @@ The Minecraft Mobs Encyclopedia is a GUI application that provides information a
 
 ### Core Functionality
 
-- Mob Listing
-  - List view of all mobs
-  - Click-to-view detailed information
+Mob Listing
+- List view of all mobs
+- Click-to-view detailed information
 
-- Detailed Mob Information
-  - Health Points - Total health of the mob
-  - Damage Output - Attack damage dealt
-  - Size Dimensions - Physical size of the mob
-  - Behavior Patterns - Hostile, neutral, or passive classification
-  - Spawn Locations - Where the mob naturally appears
-  - General Description - Overview of mob characteristics
+Detailed Mob Information
+- Health Points - Total health of the mob
+- Damage Output - Attack damage dealt
+- Size Dimensions - Physical size of the mob
+- Behavior Patterns - Hostile, neutral, or passive classification
+- Spawn Locations - Where the mob naturally appears
+- General Description - Overview of mob characteristics
 
-- Advanced Sorting Capabilities
-  - Sort by Health (ascending/descending)
-  - Sort by Damage (ascending/descending)
-  - Sort by Size (ascending/descending)
+Advanced Sorting Capabilities
+- Sort by Health (ascending/descending)
+- Sort by Damage (ascending/descending)
+- Sort by Size (ascending/descending)
 
-- Dimension Filtering
-  - Filter by Overworld mobs
-  - Filter by Nether mobs
-  - Filter by End mobs
-  - Combine filtering with sorting
+Dimension Filtering
+- Filter by Overworld mobs
+- Filter by Nether mobs
+- Filter by End mobs
+- Combine filtering with sorting
 
 ## Demo Pictures
 
